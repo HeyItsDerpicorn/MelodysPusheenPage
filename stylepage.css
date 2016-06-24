@@ -1,0 +1,41 @@
+body {
+	background-color: #B0E4F5;
+	color: #523B06;
+	font-size: 175%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+	color: black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+	height: auto;
+}
+
+iframe {
+	display: block;
+	margin: 0 auto;
+}
+	
+
+h1, h3, h2, p {
+
+	text-align: center;
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	animation: squaretoblowup 5s alternate;
+	animation-iteration-count: infinite;
+}
+
+@keyframes squaretoblowup {
+	0%{background: white;
+		transform: translate3d(1024px ,0px ,0px) rotate(360deg);}
+	50%{background: gray;}
+	100%{background: black;}
+}
